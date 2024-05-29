@@ -1,5 +1,4 @@
-function displayMessage(argText) {
-  console.log(argText);
-}
+/*eslint-disable*/
+const displayMessage = (aString) => console.log(aString);
 
 module.exports = displayMessage;
